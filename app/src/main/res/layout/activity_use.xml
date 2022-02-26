@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".use.UseActivity"
+    tools:context=".use_one.use.UseActivity"
     android:orientation="vertical">
 
     <Button
