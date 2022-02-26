@@ -1,7 +1,6 @@
 package com.open.myrxjavause.rxjava_basic_mode;
 
 import android.os.Bundle;
-import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,9 +21,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }).subscribeObserver(new Observer<String>() {
             @Override
-            public void onNext(String o) {
-                //收消的地方
-                Log.i("ann","收到了消息");
+            public void onNext(String s) {
+
             }
 
             @Override
